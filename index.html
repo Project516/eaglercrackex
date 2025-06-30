@@ -4,92 +4,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- META -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Everything eaglercraft." />
-
+  <meta name="description" content="Everything Eaglercraft: clients, servers, packs, and more!">
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="EaglercrackX" />
+  <meta name="twitter:title" content="Eaglercraftex" />
   <meta name="twitter:description" content="Everything eaglercraft." />
   <meta name="twitter:image" content="assets/favicon.ico" />
-
-  <meta property="og:title" content="EaglercrackX" />
+  <meta property="og:title" content="Eaglercraftex" />
   <meta property="og:description" content="Everything eaglercraft." />
   <meta property="og:type" content="product" />
   <meta property="og:image" content="assets/favicon.ico" />
   <meta property="og:url" content="assets/favicon.ico" />
-  <!-- META -->
   <link rel="stylesheet" href="style.css">
-  <meta name="description" content="Eaglercrack: Everything eaglercraft.">
   <script src="https://kit.fontawesome.com/cb7290d6de.js" crossorigin="anonymous"></script>
-  <title>EaglercrackEx</title>
+  <title>Eaglercraftex</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-
-  <nav class="nav">
-    <div class="logo">
-      <img src="assets/eaglercrack.png" alt="Logo">
-      <a href="index.html">
-        <h1>EaglercrackX</h1>
-      </a>
-    </div>
-    <div class="spacer"></div>
-    <ul class="navElements">
-      <li class="active">
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="clients.html">Clients</a>
-      </li>
-      <li>
-        <a href="servers.html">Servers</a>
-      </li>
-      <li>
-        <a href="packs.html">Packs</a>
-      </li>
-      <li>
-        <a href="worlds.html">Worlds</a>
-      </li>
-      <li>
-        <a href="more.html">More...</a>
-      </li>
-    
-    </ul>
-
-    <div style="margin: 0 30px 0 0;">
-      <a class="button" href="https://discord.gg/qAbTAAv6dU">
-        <i class="fa-brands fa-discord"></i>&nbspJoin the Discord
-      </a>
-    </div>
-  </nav>
 </head>
 
 <body>
-  <main class="cards">
-    <h1 class="cards__heading">Home</h1>
-    <div class="cards cards">
-      <div class="cards__inner">
-        <div class="cards__card card">
-          <h2 class="card__heading">Announcements</h2>
-          <ul role="list" class="card__bullets flow">
-            <a href="https://discord.com/invite/qAbTAAv6dU"><strong>Join the discord</strong></a>
-          </ul>
-        </div>
+  <nav class="nav" role="navigation" aria-label="Main Navigation">
+    <div class="logo">
+      <a href="index.html" aria-label="Eaglercraftex Home">
+        <img src="assets/eaglercrack.png" alt="Eaglercraftex Logo">
+        <span class="logo__text">Eaglercraftex</span>
+      </a>
+    </div>
+    <ul class="navElements">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="servers.html">Servers</a></li>
+      <li><a href="packs.html">Packs</a></li>
+      <li><a href="worlds.html">Worlds</a></li>
+      <li><a href="more.html">More...</a></li>
+    </ul>
+    <a class="button" href="https://discord.gg/qAbTAAv6dU">
+      <i class="fa-brands fa-discord"></i> Join the Discord
+    </a>
+  </nav>
 
-        <div class="cards__card card">
-          <h2 class="card__heading">Updates</h2>
-          <ul role="list" class="card__bullets flow">
-            <a href="more/updates.html"><strong>NEW UPDATE LIVE</strong></a>
-            <br>
-            <a href="more/updates.html"><strong>(1/28/24)</strong></a>
-          </ul>
-        </div>
-      </div>
+  <header class="hero" role="banner">
+    <div class="hero__content">
+      <h1>Welcome to Eaglercraftex</h1>
+      <p>Your hub for everything Eaglercraft: clients, servers, packs, and more!</p>
+      <a class="button" href="clients.html">Get Started</a>
+    </div>
+  </header>
 
-      <div class="overlay cards__inner"></div>
+  <main class="cards" role="main">
+    <div class="cards__inner">
+      <section class="cards__card card" aria-labelledby="announcements-heading">
+        <h2 class="card__heading" id="announcements-heading">Announcements</h2>
+        <ul class="card__bullets flow">
+          <li><a href="https://discord.com/invite/qAbTAAv6dU"><strong>Join the Discord</strong></a></li>
+        </ul>
+      </section>
+      <section class="cards__card card" aria-labelledby="updates-heading">
+        <h2 class="card__heading" id="updates-heading">Updates</h2>
+        <ul class="card__bullets flow">
+          <li><a href="more/updates.html"><strong>NEW UPDATE LIVE</strong></a></li>
+          <li><a href="more/updates.html"><strong>(1/28/24)</strong></a></li>
+        </ul>
+      </section>
     </div>
   </main>
-
 </body>
 
 </html>
