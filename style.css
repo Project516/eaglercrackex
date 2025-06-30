@@ -42,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    align-items: center;
 }
 
 
@@ -674,6 +675,43 @@ a, .button {
 
 
 /* Credit END: w3schools most of it */
+
+main.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 80vh;
+}
+
+.cards__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.cards__card.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+
+.cards__heading, .card__heading, .card__bullets, .card__cta, .button {
+  text-align: center;
+}
+
+iframe, embed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
