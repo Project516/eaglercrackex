@@ -39,7 +39,9 @@ body {
     font-family: Arial, sans-serif;
     /* background-color: ##202324; */
     background-color: #202324;
-
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -64,6 +66,7 @@ a {
     background: linear-gradient(90deg, #232526 0%, #414345 100%);
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     padding: 0 32px;
+    justify-content: center;
 }
 
 .spacer {
